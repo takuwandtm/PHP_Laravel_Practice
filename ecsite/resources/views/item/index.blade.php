@@ -14,6 +14,9 @@
                     <div class="card-header">
                     <a href="/item/{{ $item->id }}">{{ $item->name }}</a>
                     </div>
+                    <div class ="image">
+<img src="{{ asset('/img/'.$item->imgpath) }}" alt="" class="block01_img" width="347" height="250">
+</div>
                     <div class="card-body">
                         {{ $item->amount }}
                     </div>
